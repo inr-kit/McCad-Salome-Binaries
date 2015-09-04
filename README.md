@@ -66,24 +66,24 @@ Installation and run McCad on Linux
 
 -> Open $SALOME/KERNEL_7.4.0/salome.sh, add the following environment variables into this file.
 
-#------ MCCAD ------
-export MCCAD_ROOT_DIR=${INST_ROOT}/MCCAD_0.5.0
-if [ -n "${ENV_FOR_LAUNCH}" ] ; then
-  if [ "${ENV_FOR_LAUNCH}" = "1" ] ; then
-    exportp PATH ${MCCAD_ROOT_DIR}/bin/salome
-    exportp LD_LIBRARY_PATH ${MCCAD_ROOT_DIR}/lib/salome
-    exportp PYTHONPATH ${MCCAD_ROOT_DIR}/bin/salome:${MCCAD_ROOT_DIR}/lib/python${PYTHON_VERSION}/site-packages/salome
-  fi
-fi
-##
-#------ MCCAD_src ------
-export MCCAD_SRC_DIR=${INST_ROOT}/MCCAD_SRC_0.5.0
+	#------ MCCAD ------
+	export MCCAD_ROOT_DIR=${INST_ROOT}/MCCAD_0.5.0
+	if [ -n "${ENV_FOR_LAUNCH}" ] ; then
+	  if [ "${ENV_FOR_LAUNCH}" = "1" ] ; then
+		exportp PATH ${MCCAD_ROOT_DIR}/bin/salome
+		exportp LD_LIBRARY_PATH ${MCCAD_ROOT_DIR}/lib/salome
+		exportp PYTHONPATH ${MCCAD_ROOT_DIR}/bin/salome:${MCCAD_ROOT_DIR}/lib/python${PYTHON_VERSION}/site-packages/salome
+	  fi
+	fi
+	##
+	#------ MCCAD_src ------
+	export MCCAD_SRC_DIR=${INST_ROOT}/MCCAD_SRC_0.5.0
 
 -> In your desktop, create a new file "runSalome.sh" and put following text into this file(replacing $SALOME with actual path!!): 
 
-#!/bin/bash
-source $SALOME/KERNEL_7.4.0/salome.sh
-$SALOME/salome_appli_7.4.0/salome --module=GEOM,SMESH,PARAVIS,MCCAD
+	#!/bin/bash
+	source $SALOME/KERNEL_7.4.0/salome.sh
+	$SALOME/salome_appli_7.4.0/salome --module=GEOM,SMESH,PARAVIS,MCCAD
 
 -> Under Desktop, make this file as executable script using this command:
 	chmod +x ./runSalome.sh

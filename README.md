@@ -17,9 +17,9 @@ Installation and run McCad on Windows
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
 
-	->The version you need is "binaries self-extracting archive for 64bits Windows". 
+    ->The version you need is "binaries self-extracting archive for 64bits Windows". 
 	
-	->You need to register for downloading Salome. 
+    ->You need to register for downloading Salome. 
 
 -> Extract the Package into a folder, here brief as $SALOME (be sure to replace it with actual path during installation). 
 

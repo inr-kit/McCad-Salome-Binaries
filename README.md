@@ -5,7 +5,7 @@ McCad is a geometry conversion tool developed at KIT to enable the automatic con
 
 For any questions related to the use of this software/library you may contact Ulrich Fischer(ulrich.fischer@kit.edu) or, for technical assistance, contact Lei Lu (lei.lu@kit.edu) and Yuefeng Qiu (yuefeng.qiu@kit.edu).
 **************************************************************************************
-Something to know before going on
+********Something to know before going on********
 
 This document describes the procedure of installing McCad binaries. For compiling McCad, please find descriptions on Github repository "McCad-Salome-Source". For Using McCad, Please find documents on Github repository "McCad-Salome-Docs".
 
@@ -13,7 +13,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 
 
 **************************************************************************************
-Installation and run McCad on Windows 
+********Installation and run McCad on Windows ********
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
 
@@ -54,7 +54,7 @@ Installation and run McCad on Windows
 
 
 **************************************************************************************
-Installation and run McCad on Linux 
+********Installation and run McCad on Linux ********
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
 

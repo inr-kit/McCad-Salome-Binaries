@@ -1,10 +1,10 @@
-######################################################################################
+**************************************************************************************
 McCad-Salome: MC geometry conversion tool McCad under Salome platform. 
 
 McCad is a geometry conversion tool developed at KIT to enable the automatic conversions of CAD models into the Monte Carlo (MC) geometries. This version of McCad is integrated into the open-source Salome platform. 
 
 For any questions related to the use of this software/library you may contact Ulrich Fischer(ulrich.fischer@kit.edu) or, for technical assistance, contact Lei Lu (lei.lu@kit.edu) and Yuefeng Qiu (yuefeng.qiu@kit.edu).
-######################################################################################
+**************************************************************************************
 Something to know before going on
 
 This document describes the procedure of installing McCad binaries. For compiling McCad, please find descriptions on Github repository "McCad-Salome-Source". For Using McCad, Please find documents on Github repository "McCad-Salome-Docs".
@@ -12,7 +12,7 @@ This document describes the procedure of installing McCad binaries. For compilin
 This release is tested under Salome_7.4.0. Using other Salome version is not guarantee to work, and might cause error during this process. 
 
 
-######################################################################################
+**************************************************************************************
 Installation and run McCad on Windows 
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
@@ -38,7 +38,7 @@ Installation and run McCad on Windows
 	-> Behind the value of "Target", add " --module=MCCAD" or " --module=GEOM,SMESH,PARAVIS,MCCAD"(with a whitespace in the front). click "OK". Next time you can start McCad with this short-cut link. 
 
 
-######################################################################################
+**************************************************************************************
 Installation and run McCad on Linux 
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
@@ -91,7 +91,7 @@ $SALOME/salome_appli_7.4.0/salome --module=GEOM,SMESH,PARAVIS,MCCAD
 ->You can run McCad-Salome with running this script now. 
 
 
-######################################################################################
+**************************************************************************************
 For more information, you can find in our publications.
 
 ->Yuefeng Qiu, Lei Lu, Ulrich Fischer, Integrated approach for fusion multi-physics coupled analyses based on hybrid CAD and mesh geometries, Fusion Engineering and Design, Available online 4 July 2015, ISSN 0920-3796, http://dx.doi.org/10.1016/j.fusengdes.2015.06.118.

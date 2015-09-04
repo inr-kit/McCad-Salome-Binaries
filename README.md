@@ -16,52 +16,79 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 Installation and run McCad on Windows 
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
+
 	->The version you need is "binaries self-extracting archive for 64bits Windows". 
+	
 	->You need to register for downloading Salome. 
 
 -> Extract the Package into a folder, here brief as $SALOME (be sure to replace it with actual path during installation). 
 
 -> Download the "MCCAD_0.5.0-beta_for_Salome_7.4.0_WIN64.zip", extract it and place it under $SALOME/MODULES. Under $SALOME\MODULES\MCCAD there are three folder: 
+
 	-> bin
+	
 	-> lib
+	
 	-> share
+	
 -> We need to add MCCAD into the Salome environment. First make a backup of file $SALOME\env_launch.bat
+
 	-> in line 29, add "MCCAD" into the "m_list" (add it anywhere inside the parenthesis, separate with at least one whitespace)
+	
 	-> in line 42, add "GUI GEOM MED SMESH PARAVIS MCCAD" into "env_m_list"(add them inside the parenthesis, separate with at least one whitespace).
 
 -> To run McCad, start cmd.exe in the Windows Start menu, and run the following command:
+
 	-> $SALOME\run_salome.bat --module=MCCAD
+	
 	-> If you want to start also geometry, meshing and visualization module, using command: $SALOME\run_salome.bat --module=GEOM,SMESH,PARAVIS,MCCAD
+	
 -> One more easy way to run the program is:
+
 	-> right-click $SALOME\run_salome.bat and "Send to -> Desktop (short-cut)";
+	
 	-> right-click the short-cut link in the Desktop, choose "properties";
-	-> Behind the value of "Target", add " --module=MCCAD" or " --module=GEOM,SMESH,PARAVIS,MCCAD"(with a whitespace in the front). click "OK". Next time you can start McCad with this short-cut link. 
+	
+	-> Behind the value of "Target", add " --module=MCCAD" or "
+	--module=GEOM,SMESH,PARAVIS,MCCAD"(with a whitespace in the front). click "OK". Next time you can start McCad with this short-cut link. 
 
 
 **************************************************************************************
 Installation and run McCad on Linux 
 
 -> Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
+
 	-> Under the list "Binaries for officially supported Linux platforms", Choose the version which is closest to your OS. 
+	
 	->You need to register for downloading Salome. 
 
 
 -> Extract the zip file into a folder, then go into this folder and run the script "runInstall". A install wizard window will come out. 
 
 -> Click always "Next", and keep the default value if you don't care.
+
 	-> If you like, you can change the installation folder;
+	
 	-> If you want to save disk space, choose only these module : KERNEL, GUI, MED, GEOM, SMESH, PARAVIS.
+	
 	-> There might be warnings on "cppunit" libraries and so on, it won't affect the use of Salome. 
+	
 -> We abbreviate the Salome install folder as $SALOME.
 
 -> Download the corresponding McCad binary. Try to choose the version closest to your OS. If it does not work after the following installation, the only solution is to download the McCad source code and compiled the binary by yourself. 
 
 -> Extract the zip file and place it under $SALOME. Be sure that your $SALOME/MCCAD_0.5.0 folder have following folders:
+
 	-> bin
+	
 	-> lib
+	
 	-> share
+	
 	-> adm_local
+	
 	-> idl
+	
 	-> include
 
 -> Open $SALOME/KERNEL_7.4.0/salome.sh, add the following environment variables into this file.
@@ -86,6 +113,7 @@ Installation and run McCad on Linux
 	$SALOME/salome_appli_7.4.0/salome --module=GEOM,SMESH,PARAVIS,MCCAD
 
 -> Under Desktop, make this file as executable script using this command:
+
 	chmod +x ./runSalome.sh
 
 ->You can run McCad-Salome with running this script now. 

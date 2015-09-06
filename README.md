@@ -7,7 +7,7 @@ For any questions related to the use of this software/library you may contact Ul
 **************************************************************************************
 ********Something to know before going on********
 
-This document describes the procedure of installing McCad binaries. For compiling McCad, please find descriptions on Github repository "McCad-Salome-Source". For Using McCad, Please find documents on Github repository "McCad-Salome-Docs".
+This document describes the procedure of installing McCad binaries. For compiling McCad, please find descriptions on Github repository [McCad-Salome-Source](https://github.com/inr-kit/McCad-Salome-Source). For Using McCad, Please find documents on Github repository [McCad-Salome-Docs](https://github.com/inr-kit/McCad-Salome-Docs).
 
 This release is tested under Salome_7.4.0. Using other Salome version is not guarantee to work, and might cause error during this process. 
 

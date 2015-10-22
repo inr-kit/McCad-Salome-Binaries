@@ -67,7 +67,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 
   * If you like, you can change the installation folder;
 	
-  * If you want to save disk space, choose only these module : KERNEL, GUI, MED, GEOM, SMESH, PARAVIS.
+  * It is highly recommended to install all modules except DOCUMENTS, in order to avoid unncessary error.
 	
   * There might be warnings on "cppunit" libraries and so on, it won't affect the use of Salome. 
 	

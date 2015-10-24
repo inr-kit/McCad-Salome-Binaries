@@ -1,3 +1,5 @@
+
+***ATTENTION*** An important bug is fix for windows version!!
 **************************************************************************************
 McCad-Salome: MC geometry conversion tool McCad under Salome platform. 
 

@@ -5,7 +5,7 @@ McCad-Salome: MC geometry conversion tool McCad under Salome platform.
 
 McCad is a geometry conversion tool developed at KIT to enable the automatic conversions of CAD models into the Monte Carlo (MC) geometries. This version of McCad is integrated into the open-source Salome platform. 
 
-For any questions related to the use of this software/library you may contact Ulrich Fischer(ulrich.fischer@kit.edu) or, for technical assistance, contact Lei Lu (lei.lu@kit.edu) and Yuefeng Qiu (yuefeng.qiu@kit.edu).
+For any questions related to the use of this software/library you may contact Ulrich Fischer(ulrich.fischer@kit.edu) or, for technical assistance, contact Lei Lu (lei.lu@kit.edu) and Yuefeng Qiu (yuefeng.qiu@kit.edu). Please subscribe our mailing list for receiving latest updates and asking question in our [Google group](https://groups.google.com/forum/#!forum/mccad-users), by send a empty email to  McCad-users+subscribe@googlegroups.com and reply the comfirmation email.   
 **************************************************************************************
 ********Something to know before going on********
 

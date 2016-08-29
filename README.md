@@ -1,5 +1,9 @@
 
-***ATTENTION*** An important bug is fixed on windows version!! 
+***ATTENTION:   ***  New Decomposition is available now in version 0.5.1 . 
+Please pay attention to the change of this installation guide that the keyword "0.5.0" is replaced with "0.5.1". 
+
+You are strongly recommended to join the McCad [Google group](https://groups.google.com/forum/#!forum/mccad-users) in order to receive update information.
+
 **************************************************************************************
 McCad-Salome: MC geometry conversion tool McCad under Salome platform. 
 
@@ -25,7 +29,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 
 * Extract the Package into a folder, here brief as $SALOME (be sure to replace it with actual path during installation). 
 
-* Download the "MCCAD_0.5.0-beta_for_Salome_7.4.0_WIN64.zip", extract it and place it under $SALOME/MODULES. Under $SALOME\MODULES\MCCAD there are three folder: 
+* Download the "MCCAD_0.5.1-beta_for_Salome_7.4.0_WIN64.zip", extract it and place it under $SALOME/MODULES. Under $SALOME\MODULES\MCCAD there are three folder: 
 
   *  bin
   * lib
@@ -77,7 +81,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 
 * Download the corresponding McCad binary. Try to choose the version closest to your OS. If it does not work after the following installation, the only solution is to download the McCad source code and compiled the binary by yourself. 
 
-* Extract the zip file and place it under $SALOME. Be sure that your $SALOME/MCCAD_0.5.0 folder have following folders:
+* Extract the zip file and place it under $SALOME. Be sure that your $SALOME/MCCAD_0.5.1 folder have following folders:
 
   * bin
   * lib
@@ -89,7 +93,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 * Open $SALOME/KERNEL_7.4.0/salome.sh, add the following environment variables into this file.
 ```
 	#------ MCCAD ------
-	export MCCAD_ROOT_DIR=${INST_ROOT}/MCCAD_0.5.0
+	export MCCAD_ROOT_DIR=${INST_ROOT}/MCCAD_0.5.1
 	if [ -n "${ENV_FOR_LAUNCH}" ] ; then
 	  if [ "${ENV_FOR_LAUNCH}" = "1" ] ; then
 		exportp PATH ${MCCAD_ROOT_DIR}/bin/salome
@@ -99,7 +103,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 	fi
 	##
 	#------ MCCAD_src ------
-	export MCCAD_SRC_DIR=${INST_ROOT}/MCCAD_SRC_0.5.0
+	export MCCAD_SRC_DIR=${INST_ROOT}/MCCAD_SRC_0.5.1
 ```
 * In your desktop, create a new file "runSalome.sh" and put following text into this file(replacing $SALOME with actual path!!): 
 ```

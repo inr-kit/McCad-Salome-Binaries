@@ -1,5 +1,6 @@
 
-***ATTENTION:   ***  New Decomposition is available now in version 0.5.1 . 
+***ATTENTION:***  New Decomposition is available now in version 0.5.1 . 
+
 Please pay attention to the change of this installation guide that the keyword "0.5.0" is replaced with "0.5.1". 
 
 You are strongly recommended to join the McCad [Google group](https://groups.google.com/forum/#!forum/mccad-users) in order to receive update information.

@@ -22,7 +22,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 **************************************************************************************
 ********Installation and run McCad on Windows ********
 
-* Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
+* Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 or https://bwsyncandshare.kit.edu/s/72WQeAHYCET5EcZ. 
 
   * The version you need is "binaries self-extracting archive for 64bits Windows". 
 	

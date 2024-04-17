@@ -10,7 +10,7 @@ McCad-Salome: MC geometry conversion tool McCad under Salome platform.
 
 McCad is a geometry conversion tool developed at KIT to enable the automatic conversions of CAD models into the Monte Carlo (MC) geometries. This version of McCad is integrated into the open-source Salome platform. 
 
-For any questions related to the use of this software/library you may contact Yuefeng Qiu (yuefeng.qiu@kit.edu) and Moataz Harb (moataz.harb@kit.edu). Please subscribe our mailing list for receiving latest updates and asking question in our [Google group](https://groups.google.com/forum/#!forum/mccad-users), by send a empty email to  McCad-users+subscribe@googlegroups.com and reply the comfirmation email.   
+For any questions related to the use of this software/library you may contact Dr. Yuefeng Qiu (yuefeng.qiu@kit.edu) and Dr. Dieter Leichtle (dieter.leichtle@kit.edu). 
 **************************************************************************************
 ********Something to know before going on********
 
@@ -22,7 +22,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 **************************************************************************************
 ********Installation and run McCad on Windows ********
 
-* Download Salome_7.4.0 platform from https://old.salome-platform.org/downloads/previous-versions/salome-v7.4.0 or https://bwsyncandshare.kit.edu/s/72WQeAHYCET5EcZ. 
+* Download Salome_7.4.0 platform from https://old.salome-platform.org/downloads/previous-versions/salome-v7.4.0 or https://bwsyncandshare.kit.edu/s/H363Ydqgx2KYq4z. 
 
   * The version you need is "binaries self-extracting archive for 64bits Windows". 
 	
@@ -61,7 +61,7 @@ This release is tested under Salome_7.4.0. Using other Salome version is not gua
 **************************************************************************************
 ********Installation and run McCad on Linux ********
 
-* Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 . 
+* Download Salome_7.4.0 platform from http://www.salome-platform.org/downloads/previous-versions/salome-v7.4.0 or  https://bwsyncandshare.kit.edu/s/72WQeAHYCET5EcZ. 
 
   * Under the list "Binaries for officially supported Linux platforms", Choose the version which is closest to your OS. 
 	
